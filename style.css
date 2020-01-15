@@ -9,6 +9,7 @@ body {
   background: #0f0f0f !important;
   color: #fff !important;
   font-weight: lighter;
+  scroll-behavior: smooth;
 }
 
 .header h1 {
@@ -68,6 +69,23 @@ nav {
   height: 80px;
   position: fixed;
   z-index: 1;
+}
+
+nav #brand {
+  font-size: x-large;
+  float: left;
+  margin-left: 82px;
+  line-height: 80px;
+  font-weight: lighter;
+}
+
+nav #brand a {
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+nav #brand a:hover {
+  text-decoration: none;
 }
 
 nav #menu {
@@ -332,11 +350,6 @@ nav #menu li a:hover {
   height: 400px;
 }
 
-.project1 {
-  font-weight: lighter;
-  text-align: center;
-}
-
 img {
   max-width: 90%;
   height: auto;
@@ -346,13 +359,24 @@ img {
   display: block;
 }
 
-video {
-  max-width: 90%;
-  height: auto;
-  display: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+.heroku img {
+  height: 8%;
+  width: 10%;
+  float: left;
+  margin-left: 1em;
+}
+
+.youtube img {
+  height: 10%;
+  width: 13%;
+  float: left;
+  margin-left: 1em;
+}
+.github img {
+  height: 9%;
+  width: 12%;
+  float: left;
+  margin-left: 1em;
 }
 
 @media (max-width: 768px) {
