@@ -360,21 +360,21 @@ img {
 }
 
 .heroku img {
-  height: 8%;
-  width: 10%;
+  height: 40px;
+  width: 40px;
   float: left;
   margin-left: 1em;
 }
 
 .youtube img {
-  height: 10%;
-  width: 13%;
+  height: 40px;
+  width: 40px;
   float: left;
   margin-left: 1em;
 }
 .github img {
-  height: 9%;
-  width: 12%;
+  height: 40px;
+  width: 40px;
   float: left;
   margin-left: 1em;
 }
