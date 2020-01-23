@@ -291,9 +291,13 @@ nav #menu li a:hover {
 
 .row h5 {
   font-weight: lighter;
-  justify-content: center;
-  text-align: center;
   margin-top: -70px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.project .h5 {
+  margin-right: 100000px;
 }
 
 .javascript {
@@ -350,6 +354,18 @@ nav #menu li a:hover {
   height: 400px;
 }
 
+.reflectra {
+  max-width: 80%;
+  height: auto;
+  display: inline-block;
+}
+
+.lexiverse {
+  max-width: 70%;
+  height: auto;
+  display: inline-block;
+}
+
 img {
   max-width: 90%;
   height: auto;
@@ -362,21 +378,20 @@ img {
 .heroku img {
   height: 40px;
   width: 40px;
-  float: left;
-  margin-left: 1em;
+  display: inline-block;
 }
-
 .youtube img {
   height: 40px;
   width: 40px;
-  float: left;
-  margin-left: 1em;
+  align-items: right;
+  display: inline-block;
 }
 .github img {
   height: 40px;
   width: 40px;
-  float: left;
-  margin-left: 1em;
+  align-items: right;
+  display: inline-block;
+  filter: brightness(300%);
 }
 
 @media (max-width: 768px) {
