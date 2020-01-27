@@ -355,13 +355,30 @@ nav #menu li a:hover {
 }
 
 .reflectra {
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   display: inline-block;
 }
 
+.reflectra img {
+  max-width: 70%;
+}
+
 .lexiverse {
   max-width: 70%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+.sorting {
+  max-width: 50%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.flyingK {
+  max-width: 50%;
   height: auto;
   display: inline-block;
 }
@@ -398,6 +415,22 @@ img {
   .project {
     width: 90% !important;
     margin: 14px auto;
+    margin-bottom: 14px;
+  }
+}
+@media (min-width: 1500px) {
+  .project {
+    width: 90% !important;
+    margin: 14px auto;
+    margin-bottom: 140px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .project {
+    width: 90% !important;
+    margin: 14px auto;
+    margin-bottom: 200px;
   }
 }
 
