@@ -29,7 +29,7 @@ body {
 }
 
 .anim-typewriter {
-  animation: typewriter 4s steps(40) 1s 1 normal both,
+  animation: typewriter 3s steps(40) 1s 1 normal both,
     blinkTextCussor 500ms steps(40) infinite normal;
 }
 
@@ -38,7 +38,7 @@ body {
     width: 0;
   }
   to {
-    width: 7em;
+    width: 13em;
   }
 }
 
@@ -48,7 +48,7 @@ body {
       width: 0;
     }
     to {
-      width: 7em;
+      width: 13em;
     }
   }
 }
